@@ -1,6 +1,6 @@
 # API de Gerenciamento de Livros (Trabalho 2)
 
-Esta é uma API RESTful completa desenvolvida para a disciplina, implementando operações de CRUD (Create, Read, Update, Delete) para um catálogo de livros.
+Esta é uma API REST completa desenvolvida para a disciplina, implementando operações de CRUD (Create, Read, Update, Delete) para um catálogo de livros.
 
 ##  Diferenciais Implementados
 - **Soft Delete (Exemplo Bônus):** Ao invés de excluir o registro permanentemente (Hard Delete com `splice`), o método DELETE altera a flag `deletado` para `true`. O endpoint GET foi ajustado para filtrar e não exibir livros deletados. O status retornado no delete é o `204 No Content`.
