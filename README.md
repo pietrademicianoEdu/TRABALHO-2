@@ -17,10 +17,10 @@ Esta é uma API REST completa desenvolvida para a disciplina, implementando oper
 | `PUT`    | `/api/livros/:id` | Atualiza um livro existente. Requer body. | `200 OK` |
 | `DELETE` | `/api/livros/:id` | Realiza o *soft delete* do livro. | `204 No Content` |
 
-## Como executar o projeto
+## Como executei o projeto
 
-1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
-2. Clone ou baixe este repositório.
-3. Abra o terminal na pasta do projeto e instale as dependências:
+1. Ter o [Node.js](https://nodejs.org/) instalado.
+2. Clonei este repositório.
+3. Abri o terminal na pasta do projeto e instalei as dependências:
    ```bash
    npm install express
